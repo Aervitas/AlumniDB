@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brother Login</title>
+  <link rel="stylesheet" href="main.css">
+  <!-- Defer used to ensure js does not run until HTML is done loading-->
+  <script defer src="login.js"></script>
+</head>
+
+<body>
+    <h1 id="login">Brother Database Login</h1>
+    <div id="loginerror">
+        <p id="errormsg">Invalid username or password</p>
+      </div>
+    <!--Simple form-->
+    <form id="login-form">
+      <input type="text" name="username" id="username" class="login-field" placeholder="Full Name">
+      <input type="password" name="password" id="password" class="login-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-submit">
+   </form>
+    <!--Div for what to show when login incorrect-->
+
+</body>
+
+</html>
